@@ -9,6 +9,8 @@
   --contrast-complement: #133847;
   --neutral: #032533;
 }
+body{
+  background-color: var(--contrast);
 .cabecalho {
   font-family: 'gautama';
   margin-top: -8px;
@@ -43,8 +45,12 @@
   align-content: flex-start;
   margin-top: -20px
 }
-body{
-  background-color: var(--contrast);
+/*formatação dos itens da lista de navegação após serem ancorados*/
+.referencia{
+  color: white;
+  text-decoration: none;
+}
+
 }
 #frase-diferente{
   font-family: 'Dogfish', sans-serif;;
@@ -73,16 +79,14 @@ body{
 #sobre-mim{
   margin-top: 20px; ;
 }
-.referencia{
-  color: white;
-  text-decoration: none;
-}
-.titulo-sobremim{
+/*Titulo topicos e parag topicos são referentes a todos os tópicos, como sobre mim, habilidades e etc.
+Já que todos vão possuir a mesma formatação, os reuni em uma só classe*/
+.titulo-topicos{
   font-family: 'gautama';
   display: flex;
   justify-content: center;
 }
-#parag-sobremim{
+.parag-topicos{
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
@@ -90,17 +94,6 @@ body{
 }
 #habilidades{
   margin-top: 20px; ;
-}
-.titulo-habilidades{
-  font-family: 'gautama';
-  display: flex;
-  justify-content: center;
-}
-#parag-habilidades{
-  text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  font-size: medium;
 }
 .imagens-tecnologia{
   background-color: white;
