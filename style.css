@@ -96,7 +96,7 @@ Já que todos vão possuir a mesma formatação, os reuni em uma só classe*/
   margin-top: 20px; ;
 }
 .imagens-tecnologia{
-  background-color: white;
+
   margin: 22px;
   display: flex;
   justify-content: space-evenly;
@@ -106,4 +106,53 @@ Já que todos vão possuir a mesma formatação, os reuni em uma só classe*/
 .tecnologia{
   height: 100px;
   width: 90px;
+}
+/*LEMBRAR DE IMPLEMENTAR PROJETO*/
+/*Começo do footer*/
+#footer{
+  background-color: #91B0B3;
+  margin-top: 20px;
+  margin-left: -10px;
+  margin-bottom: -40px;
+  margin-right: -8px;
+}
+#titulo-footer{
+  text-align: center;
+  font-family: 'gautama';
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.contatos{
+  display: flex;
+  flex-direction: column;
+}
+/*mexendo nos ícones*/
+.fa-github{
+  font-size: 30px;
+  margin-left: 8px;
+}
+.fa-envelope{
+  font-size: 30px;
+  margin-left: 8px;
+}
+.fa-linkedin{
+  font-size: 30px;
+  margin-left: 8px;
+}
+#link-git{
+  margin-left: 50px;
+  margin-top: -20px;
+}
+#link-email{
+  margin-left: 50px;
+  margin-top: -20px;
+}
+#link-linkedin{
+  margin-left: 50px;
+  margin-top: -20px;
+}
+.referencia-link{
+  text-decoration: none;
+  color: black;
 }
