@@ -108,6 +108,34 @@ Já que todos vão possuir a mesma formatação, os reuni em uma só classe*/
   width: 90px;
 }
 /*LEMBRAR DE IMPLEMENTAR PROJETO*/
+.imagem-projeto{
+  height: 200px;
+  width: 215px;
+  justify-content: center;
+}
+/*estilização botão*/
+#botao{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+button {
+  font-family: monospace;
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
+
 /*Começo do footer*/
 #footer{
   background-color: #91B0B3;
@@ -155,4 +183,14 @@ Já que todos vão possuir a mesma formatação, os reuni em uma só classe*/
 .referencia-link{
   text-decoration: none;
   color: black;
+}
+#agradecimento{
+  display: flex;
+  justify-content: end;
+}
+#frase-agradecimento{
+  color: white;
+  font-size: xx-large;
+  font-family: 'gautama';
+  margin-right: 10px;
 }
